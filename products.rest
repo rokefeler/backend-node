@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000/api/v1/products @rdpVersion = v1
+
+/*****************************************************************************************/
+
+POST {{baseUrl}}/ HTTP/1.1
+Content-Type: application/json
+
+{
+    name:"new products",
+    price: 1240.12,
+    category: "oils"
+}
+
